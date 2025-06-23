@@ -47,7 +47,7 @@ local Image = AddImageLabel(Main, {
   Name = "TREDAX HUB ",
   Image = "rbxassetid://135207208601826"
 })
-local Paragraph = AddParagraph(Main, {"سكربت يفيدكب الصملات والهوشات"})
+local Paragraph = AddParagraph(Main, {"سكربت عباره عن مجموعه كبيره من مميزات"})
 
 MinimizeButton({
 Image = "rbxassetid://94901238836721",
@@ -66,7 +66,7 @@ local args = {
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
 local args = {
     [1] = "RolePlayName",
-    [2] = "البحث:MRT_V2"
+    [2] = "مطور سكربت TREDAX ل MRT_V2😋⭕"
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
@@ -79,11 +79,22 @@ game.StarterGui:SetCore("SendNotification", {
 })
 wait(0.1)
 game.StarterGui:SetCore("SendNotification", {
-    Title = " نم تفعيل ";
-    Text = "سكربت مطور MRT_V2 ";
+    Title = " تم اشتغل ";
+    Text = "سكربت مطور TREDAX ";
       Image = "rbxassetid://136300057076089"; -- ARAB TEAM
     Duration = 5;
 })
+AddButton(Main, {
+  Name = "نسخ حسابي روبلوكس",
+  Callback = function()
+    setclipboard('ABBAS_ASBBAS')
+  end
+})
+AddButton(Main, {
+  Name = "个نسخ حسابي تيك توك个",
+  Callback = function()
+    setclipboard("sex.xvx")
+  end
 })
 local Paragraph = AddParagraph(Main, {"السيرفر"})
 -- Create a label to show the number of players
@@ -114,6 +125,30 @@ local function updateTime(label)
         wait(1)  -- Atualiza a cada segundo
     end
 end
+
+-- Iniciando a atualização da TextLabel
+coroutine.wrap(updateTime)(Label)
+local Main = MakeTab({Name ="التحديثات"})
+
+--[[
+  Name = "Main" <string> Nome da guia
+]]
+local Paragraph = AddParagraph(Main, {"لإضافات في هاذا تحديث"})
+local section = AddSection(Main, {"اضافه شعر وسكنات جاهزه"})
+local section = AddSection(Main, {"اضافه اكسسوارات "})
+local Paragraph = AddParagraph(Main, {"الإضافات القادمه"})
+local section = AddSection(Main, {"ضافه اكسوورات أكثر "})
+local section = AddSection(Main, {"اضافه أجسام وارحل أكثر "})
+local section = AddSection(Main, {"اضافه أشياء اخراء"})
+local Main = MakeTab({Name = "سكربتات"})
+
+--[[
+  Name = "Main" <string> Nome da guia
+]]
+local section = AddSection(Main, {"سكربتات من صنع مطورين "})
+local section = AddSection(Main, {"سكربتات عشوائية"})
+local Main = MakeTab({Name = "سكن"})
+
 --[[
   Name = "Main" <string> Nome da guia
 ]]
