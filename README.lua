@@ -2,7 +2,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/R7KScript/usernaxo/r
 MakeWindow({
   Hub = {
     Title = "MRT_V2 HUB BROOKHAVEN 1.2V",
-    Animation = "\27[38;2;128;0;128mMRT_V2\27[0m"
+    Animation = "[اهلا بك"
   },
   Key = {
     KeySystem = false,
@@ -21,8 +21,8 @@ MakeWindow({
 
 --[[
   Hub = {
-    Title = "REDz HUB" -- <string> Titulo do seu script
-    Animation = "\27[38;2;128;0;128mMRT_V2\27[0m" -- <string> Adiciona um texto na animacão do seu HUB
+    Title = "MRT_V2" -- <string> Titulo do seu script
+    Animation = "by : MRT_V2" -- <string> Adiciona um texto na animacão do seu HUB
   },
   Key = {
     KeySystem = <bollean> Adiciona um sistema de chaves
@@ -44,7 +44,7 @@ local Main = MakeTab({Name = "معلومات"})
   Name = "Main" <string> Nome da guia
 ]]
 local Image = AddImageLabel(Main, {
-  Name = "\\27[38;2;128;0;128mMRT_V2\\27[0m HUB",
+  Name = "MRT_V2 HUB ",
   Image = "M"
 })
 local Paragraph = AddParagraph(Main, {"سكربت عباره عن مجموعه كبيره من مميزات"})
@@ -60,13 +60,13 @@ StrokeTransparency = 0,
 })
 local args = {
     [1] = "RolePlayBio",
-    [2] = "\27[38;2;128;0;128mSCRIPT MRT_V2\27[0m"
+    [2] = "[MRT_V2"
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
 local args = {
     [1] = "RolePlayName",
-    [2] = "\27[38;2;128;0;128mMRT_V2\27[0m"
+    [2] = "[البحث:MRT_V2"
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
@@ -87,13 +87,13 @@ game.StarterGui:SetCore("SendNotification", {
 AddButton(Main, {
   Name = "نسخ حسابي روبلوكس",
   Callback = function()
-    setclipboard('MRT_V2_OWNER')
+    setclipboard('MOURD1123/SADMEN70')
   end
 })
 AddButton(Main, {
   Name = "个نسخ حسابي تيك توك个",
   Callback = function()
-    setclipboard("sex.xvx")
+    setclipboard("MOURD1123")
   end
 })
 local Paragraph = AddParagraph(Main, {"السيرفر"})
@@ -135,12 +135,8 @@ local Main = MakeTab({Name ="التحديثات"})
 ]]
 local Paragraph = AddParagraph(Main, {"لإضافات في هاذا تحديث"})
 local section = AddSection(Main, {"اضافه شعر وسكنات جاهزه"})
-local section = AddSection(Main, {"اضافه اكسسوارات "})
-local Paragraph = AddParagraph(Main, {"الإضافات القادمه"})
-local section = AddSection(Main, {"ضافه اكسوورات أكثر "})
-local section = AddSection(Main, {"اضافه أجسام وارحل أكثر "})
-local section = AddSection(Main, {"اضافه أشياء اخراء"})
-local Main = MakeTab({Name = "سكربتات"})
+local section = AddSection(Main, {"تحسين الواجهة"})
+ section = AddSection(Main, {اضافة سكربتات جديدة"})
 
 --[[
   Name = "Main" <string> Nome da guia
@@ -378,7 +374,7 @@ AddButton(Main, {
   Callback = function()
     local args = {
     [1] = "CharacterSizeUp",
-    [2] = 6
+    [2] = 0
 }
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
   end
@@ -440,16 +436,9 @@ local Toggle = AddToggle(Main, {
     Default = false,
     Callback = onNoclipToggle
 })
-AddButton(Main, {
-  Name = "مسجل مجاني",
-  Callback = function(s)
-_G.boomboxb = game:GetObjects('rbxassetid://740618400')[1]
-_G.boomboxb.Parent = game:GetService'Players'.LocalPlayer.Backpack
-loadstring(_G.boomboxb.Client.Source)() 
-loadstring(_G.boomboxb.Server.Source)()
- end
+
 })
-local Main = MakeTab({Name = "تخريب"})
+local Main = MakeTab({Name = "TROLL"})
 
 --[[
   Name = "Main" <string> Nome da guia
@@ -1233,9 +1222,9 @@ local Main = MakeTab({Name = "الاغاني"})
   Name = "Main" <string> Nome da guia
 ]]
 AddTextBox(Main, {
-  Name = "☠️ادخل كود الاغنية☠️",
+  Name = "كود الأغنية",
   Default = "",
-  PlaceholderText = "☠️ادخل الاغنيه سكيت بورد☠️",
+  PlaceholderText = "تم",
   ClearText = true,
   Callback = function(Value)
 local args1 = {
@@ -1842,4 +1831,4 @@ AddButton(Main, {
     Name = "فوق المدرسة",
     Description = "Teleporta para as coordenadas Em Cima da Escola",
     Callback = teleportToOnTopOfSchool
-})
+}) 
